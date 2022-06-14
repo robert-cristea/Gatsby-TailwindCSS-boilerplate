@@ -1,0 +1,90 @@
+@tailwind base;
+
+@tailwind components;
+
+@import url('https://fonts.googleapis.com/css?family=Inter');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+* {
+  @apply break-normal;
+}
+
+h2 {
+  @apply text-xl;
+}
+
+a {
+  @apply text-teal-600 inline-block;
+}
+
+a:hover {
+  @apply text-teal-700;
+}
+* {
+  font-family: "Inter"
+}
+button.primary {
+  @apply text-lg text-white rounded-lg bg-primary px-8 py-3 flex justify-center items-center;
+}
+
+button.primarymobile {
+  @apply text-base text-white rounded-lg bg-primary px-4 py-2 flex justify-center items-center;
+}
+
+button.secondery {
+  @apply text-lg text-lightBlack border border-lightBrown rounded-lg  px-6 py-3 flex justify-center items-center;
+}
+
+button.seconderymobile {
+  @apply text-base text-lightBlack border border-lightBrown rounded-lg  px-4 py-2 flex justify-center items-center;
+}
+
+button.seconderyFontWhite {
+  @apply text-lg text-white border border-lightBrown rounded-lg justify-center px-6 py-3;
+}
+
+button.tabButtonActive {
+  @apply text-lg text-black rounded-md bg-lighterGray p-4;
+}
+
+button.tabButtonNormal {
+  @apply text-lg text-customGray rounded-md p-4;
+}
+
+button.tabButtonMobileActive {
+  @apply text-sm text-black rounded-md bg-lighterGray p-2;
+}
+
+button.tabButtonMobileNormal {
+  @apply text-sm text-customGray rounded-md p-2;
+}
+
+.pure-modal .panel-heading {
+  background-color: inherit !important;
+}
+
+.pure-modal .panel-body {
+  background-color: inherit !important;
+}
+
+.pure-modal .close {
+  background-color: inherit !important;
+}
+
+.bkayInput {
+  padding: 16px;
+  background: #b57f662d;
+  border: 1px solid #b57f6644;
+  border-radius: 10px;
+}
+
+.bkayInput:focus {
+  border: 1px solid #b57f66;
+}
+
+.boxshadow {
+  box-shadow: 32.158px 45.9399px 91.8799px rgba(0, 0, 0, 0.17);
+}
+
+@tailwind utilities;
+
